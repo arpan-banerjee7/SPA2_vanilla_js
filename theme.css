@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Poppins:wght@300;500&display=swap");
+
+.navbar a {
+  margin: 0 5px 0 0;
+  padding: 0 8px 0 8px;
+  border: 2px solid;
+  border-color: white;
+  border-radius: 100px;
+  font-family: "Poppins", sans-serif;
+  color: black;
+  text-decoration: none;
+}
+
+.navitems {
+  display: flex;
+  justify-content: space-between;
+  padding: 38px;
+}
+
+.navbar a:hover {
+  border-color: black;
+}
+
+.navbar a.active {
+  border-color: grey;
+}
+
+.contentdiv {
+  padding: 38px;
+  text-align: center;
+  font-size: larger;
+  font-style: inherit;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.footer {
+  padding: 38px;
+  margin-top: 150px;
+  text-align: right;
+  color: grey;
+}
